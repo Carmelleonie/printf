@@ -1,2 +1,2 @@
-0x11. C - printf
-team project
+This is my first team project.
+It is a PRINTF PROJECT.
