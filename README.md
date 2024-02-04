@@ -1,2 +1,1 @@
-This is my first team project.
-It is a PRINTF PROJECT.
+This is my PRINTF PROJECT.

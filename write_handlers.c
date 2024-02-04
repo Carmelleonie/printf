@@ -19,8 +19,8 @@ int handle_write_char(char c, char buffer[],
 	int i = 0;
 	char padd = ' ';
 
-	UNUSED(precision);
-	UNUSED(size);
+	void(precision);
+	void(size);
 
 	if (flags & F_ZERO)
 		padd = '0';
@@ -65,7 +65,7 @@ int write_number(int is_negative, int ind, char buffer[],
 	int length = BUFF_SIZE - ind - 1;
 	char padd = ' ', extra_ch = 0;
 
-	UNUSED(size);
+	void(size);
 
 	if ((flags & F_ZERO) && !(flags & F_MINUS))
 		padd = '0';
